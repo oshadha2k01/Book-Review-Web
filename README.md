@@ -41,15 +41,22 @@ This project is built using the **MERN stack** (MongoDB, Express.js, React, Node
 
 ## Setup
 
-### 1. Clone the repository
+1. Clone the repository using link [https://github.com/oshadha2k01/Book-Review-Web]
+2. Navigate the using ```cd Book-Review-Web```command to the project
+3. ```cd backend`` using this navigate to the backend. 
+4. Install the dependencies for backend using ```npm install```
+5. Back form the backend and dircte to the frontend and install dependnecies using ```npm install`` like backend.
+6. Create the .env file in the backend folder to store MongoDB connection URL
+7. Start the backend server using ```npm start``
+8. Split the terminal and navigate to the frontend folder using ```cd frontend``` command and run frontend server using ```npm start``` 
 
-git clone https://github.com/oshadha2k01/Book-Review-Web
-cd Book-Review-Web
+## Contact
 
-## 2. Backend Setup
+ **Email**: [oshadhanipun093@gmail.com]
+ **Github**: [https://github.com/oshadha2k01]
+ **Linkedin**: [https://www.linkedin.com/in/oshadha-nipun-77b08333a/]
 
-- **Navigate to the backend folder:**
-cd backend
+
 
 
 
