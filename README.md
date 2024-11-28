@@ -47,7 +47,7 @@ This project is built using the **MERN stack** (MongoDB, Express.js, React, Node
 git clone https://github.com/oshadha2k01/Book-Review-Web
 cd Book-Review-Web
 
----
+### 2. Install Dependencies
 
 
 
