@@ -1,4 +1,4 @@
-# Book Review Application
+# Book Review Web Application
 
 ## Overview
 
