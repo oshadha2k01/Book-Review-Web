@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ReviewList from "./components/ReviewList";
+import ReviewForm from "./components/ReviewForm";
+import ReviewEdit from "./components/ReviewEdit";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<ReviewList />} />
+        <Route path="/book-review" element={<ReviewForm />} />
+        <Route path="/edit-review/:id" element={<ReviewEdit />} />
+      </Routes>
+    </Router>
   );
-}
+};
 
 export default App;
